@@ -1,8 +1,8 @@
 import { useState } from "react";
 import reactLogo from "@/assets/react.svg";
 import wxtLogo from "/wxt.svg";
-import { Button } from "@/components/ui/button";
 import "./App.css";
+import { Button } from "@/components/ui/button";
 
 function App() {
   const [count, setCount] = useState(0);
